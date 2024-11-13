@@ -5,6 +5,7 @@
 [wait time=200]
 [freeimage layer="base"]
 [bg storage=TItle.png time=500]
+[playbgm storage="日没廃校．mp3"　loop=true]
 [position height=300 top=550 ]
 この物語はフィクションです。[r]
 実在の団体、人物とは関係がありません[r]
@@ -14,7 +15,7 @@
 *tag_prologue
 
 [cm]
-
+[stopbgm ]
 [bg storage=夜道.webp time=500]
 [position height=300 top=600 ]
 
@@ -135,6 +136,7 @@
 [cm]
 
 [font size=40  bold=true ]
+[playbgm storage="dark_entrance.mp3"]
 ここ事故物件なんだよ[l][r]
 [resetfont]
 [cm]
@@ -206,7 +208,7 @@
 
 [position height=600 top=100 ]
 
-
+[playbgm storage="grudge_of_dead.mp3"]
 [font size=20  ]
 
 なかたりさんなかたりさんなかたりさんなかたりさんなかたりさんなかたりさん[r]
@@ -281,6 +283,8 @@
 [cm]
 ???）おのれが人殺したからここにいるんや[l][r]
 [cm]
+[playbgm storage="tinnitus3.mp3"]
+
 意味がわからなかった。[l][r]
 俺が人を殺した？何を言っているんだこいつは[l][r]
 [cm]
@@ -298,6 +302,7 @@
 [quake count=10 time=1000 hamx=20]
 思い出そうとした次の瞬間、頭が急に痛くなった[l][r]
 自分）うぅ、、頭が、、、[l][r]
+[playbgm storage="mental_attack1.mp3"]
 [cm]
 [bg storage=廃墟部.jpg time=5]
 薄れゆく意識の中で、ある情景と感触が頭に浮かんだ[l][r]
@@ -310,11 +315,14 @@
 [cm]
 その瞬間、俺は全てを悟ってしまった。[l][r]
 [cm]
+
 [bg storage=顔.jpeg time=500]
 [font size=40  bold=true ]
+[stopbgm ]
 俺が、[l]和樹を[l]殺した[l]
 
 【 BAD END2：殺人犯 】[l][cm]
+[stopbgm ]
 
 [jump target=*start]
 
@@ -333,7 +341,7 @@
 和樹）宮崎さん～どこですか？[l][r]
 和樹と宮崎さんを探していると、足に何かがぶつかった。[l][r]
 [cm]
-
+[playbgm storage="日没廃校．mp3"　loop=true]
 [bg storage=倒れている人.webp time=300]
 自分）人、、？[l][r]
 倒れていたのは、酷く汚れた女の人だった[l][r]
@@ -412,7 +420,7 @@
 和樹）なにすんだよ、、[l][r]
 和樹は、俺が何か考えているのを察して、釈然としない顔をした[l][r]
 [cm]
-
+[stopbgm ]
 (中略)
 [cm]
 
@@ -466,6 +474,7 @@
 宮崎）君たちも知っての通りここ事故物件だから[l][r]
 [cm]
 [font size=40  bold=true ]
+[playbgm storage="dark_entrance.mp3"]
 宮崎）何も起きないか確かめるために、ここに泊まるよ[l][r]
 [resetfont]
 [cm]
@@ -526,6 +535,7 @@
 
 
 [font size=60 ]
+[playbgm storage="ghost_call.mp3"]
 
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
@@ -534,7 +544,7 @@
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 
-
+[stopbgm ]
 
 [cm]
 [resetfont]
