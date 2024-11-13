@@ -5,17 +5,25 @@
 [wait time=200]
 [freeimage layer="base"]
 [bg storage=TItle.png time=500]
-[playbgm storage="日没廃校．mp3"　loop=true]
-[position height=300 top=550 ]
-この物語はフィクションです。[r]
-実在の団体、人物とは関係がありません[r]
+[position height=300 top=650 ]
+[playbgm storage="日没廃校.mp3"]
+
 [link target=*tag_prologue] →始める [endlink][r]
 [s]
 
+
 *tag_prologue
+[cm]
+[bg storage=TItle.png time=500]
+[position height=300 top=550 ]
+
+この物語はフィクションです。[r]
+実在の団体、人物とは関係がありません[r]
+またこの作品は音量を上げてお楽しみください[l][r]
 
 [cm]
 [stopbgm ]
+[playbgm storage="夏のある日.mp3"]
 [bg storage=夜道.webp time=500]
 [position height=300 top=600 ]
 
@@ -73,6 +81,7 @@
 [jump target=*start]
 
 *tag_go
+[stopbgm ]
 
 [bg storage=夜道.webp time=500]
 [position height=600 top=600 ]
@@ -83,7 +92,7 @@
 [cm]
 
 [bg storage=マンション2.jpg time=500]
-
+[playbgm storage="憂鬱的労働.mp3"　]
 そんなことを話していたら目的地に着いた[l][r]
 [cm]
 自分）ここを掃除するのか、、[l][r]
@@ -128,19 +137,20 @@
 [cm]
 
 宮崎が説明を終えた後、和樹が宮崎に聞いた[l][r]
-和樹)そういえば何でこのバイトってこんな日給高いんですか？[l][r]
+和樹）そういえば何でこのバイトってこんな日給高いんですか？[l][r]
 [cm]
 
-宮崎)はぁ、、、[l][r]
+宮崎）はぁ、、、[l][r]
 宮崎）あんまり言いたくないんだけどね、[l][r]
 [cm]
 
 [font size=40  bold=true ]
 [playbgm storage="dark_entrance.mp3"]
+
 ここ事故物件なんだよ[l][r]
 [resetfont]
 [cm]
-
+[stopbgm]
 宮崎は続ける[l][r]
 宮崎）このマンションね、何十人も人が死んでるらしいんだ[l][r]
 
@@ -148,11 +158,15 @@
 宮崎）それも住民だけじゃない[l][r]
 自分）住民だけじゃないって？[l][r]
 [cm]
+
+
 [font size=40  bold=true ]
-俺たち清掃員もだよ[l][r]
+[playbgm storage="dark_entrance.mp3"]
+俺たち清掃員も死んでるんだ[l][r]
 [resetfont]
 
 [cm]
+[stopbgm]
 え、、[l][r]
 俺と和樹は言葉を失った[l][r]
 
@@ -184,16 +198,21 @@
 和樹と別れた後、俺は自分の担当である和室に向かい、掃除をしていた[l][r]
 しばらく掃除をしているとあることに気づいた[l][r]
 [cm]
+
+[playbgm storage="tinnitus3.mp3"]
+
 おかしい、、このマンションの部屋全然汚れていない[l][r]
 清掃って聞いてたけど、こんなに汚れていないことあるか？[l][r]
 [cm]
 そう思った俺は、それを和樹に報告しようと思い、[r]
 部屋を移動しようとした。その時[l][r]
 [cm]
+[playbgm storage="囁き.mp3"]
 なかたりさん[l][r]
 奥から声がある聞こえた。[l][r]
 
 [cm]
+[stopbgm]
 [position height=600 top=550 ]
 自分）え、[l][r]
 [link target=*tag_deadend] → なかたりさん？ [endlink][r]
@@ -321,6 +340,7 @@
 [stopbgm ]
 俺が、[l]和樹を[l]殺した[l]
 
+[playbgm storage="叫び.mp3"]
 【 BAD END2：殺人犯 】[l][cm]
 [stopbgm ]
 
@@ -341,7 +361,7 @@
 和樹）宮崎さん～どこですか？[l][r]
 和樹と宮崎さんを探していると、足に何かがぶつかった。[l][r]
 [cm]
-[playbgm storage="日没廃校．mp3"　loop=true]
+[playbgm storage="だれもいないはずだった.mp3"　]
 [bg storage=倒れている人.webp time=300]
 自分）人、、？[l][r]
 倒れていたのは、酷く汚れた女の人だった[l][r]
@@ -385,6 +405,7 @@
 状況が分かってないような気がしたので、俺は宮崎に告げた[l][r]
 自分）宮崎さん、この人死んでるみたいなんですが、、[l][r]
 [cm]
+[stopbgm]
 [font size=40  bold=true ]
 宮崎）いや、なかたりさんだから[l][r]
 [resetfont]
@@ -400,7 +421,7 @@
 
 *tag_survive2
 [cm]
-焦りをはらんだ声で和樹が話す
+焦りをはらんだ声で和樹が話す[l][r]
 [cm]
 和樹）だからその、、[l][r]
 [link target=*tag_deadend1] →和樹）なかたりさんってなんなんだよ？ [endlink][r]
@@ -436,21 +457,21 @@
 [position height=600 top=100 ]
 
 
-
+[playbgm storage="お経.mp3"　]
 [font size=20  ]
 
-小向　菜穂子(39）[r]
-小向　武(41）[r]
+小向　菜穂子（39）[r]
+小向　武（41）[r]
 小向　光(9)　[r]
 西口　大和(55)[r]
 西口　茜(55)[r]
 富田　緑(26)　[r]
-町田　美奈(79）[r]
+町田　美奈（79）[r]
 山崎　直子(32)　[r]
 山崎　雄介(33)　[r]
-山崎　裕太(6）[r]
-西　純平(56）[r]
-林田　ナオミ(44）[r]
+山崎　裕太（6）[r]
+西　純平（56）[r]
+林田　ナオミ（44）[l][r]
 [cm]
 
 
@@ -459,6 +480,7 @@
 残念ながらお亡くなりになりました[l][r]
 [resetfont]
 [cm]
+[stopbgm]
 [position height=600 top=600 ]
 [bg storage=廃墟内部.jpg time=300]
 俺と和樹が部屋で話していると[l][r]
@@ -504,6 +526,7 @@
 
 すると、宮崎が一人で呟き始めた[l][r]
 [cm]
+[playbgm storage="きも笑い.mp3" ]
 宮崎）僕は、今までは普通の特殊清掃員をしていたんだ[l][r]
 和樹）通常の？[l][r]
 [cm]
@@ -535,7 +558,7 @@
 
 
 [font size=60 ]
-[playbgm storage="ghost_call.mp3"]
+[playbgm storage="grudge_of_dead.mp3"]
 
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
@@ -543,15 +566,14 @@
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
 死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい死にたい
-
-[stopbgm ]
-
 [cm]
+
 [resetfont]
 [position height=600 top=600 ]
 [font size=40  bold=true ]
 宮崎）なかたりさん[l][r]
 [resetfont]
+[stopbgm ]
 [cm]
 和樹）宮崎さん？　それ、なんなんですか？[l][r]
 [cm]
@@ -563,10 +585,14 @@
 [cm]
 宮崎）君たちは戻れるんだね[l][r]
 [cm]
+[stopbgm ]
 [bg storage=.jpg time=500]
+[playbgm storage="turn_off_breaker.mp3"]
+[stopbgm]
 次の瞬間、電気が切れた[l][r]
 懐中電灯をつけると、宮崎さんは消えていた[l][r]
 [cm]
+[stopbgm]
 [bg storage=夜明け.jpeg time=300]
 そうこうしているうちに夜が明けた[l][r]
 それから俺は和樹と帰宅の路についた[l][r]
@@ -591,11 +617,12 @@
 [position height=600 top=600 ]
 そんな記事を読んでいると、後ろから声が聞こえた[l][r]
 [cm]
+[playbgm storage="ghost_call.mp3"]
 [bg storage=女性.webp time=300]
 なかたりさん[l][r]
 [cm]
 【 True END：亡霊 】[l][cm]
-
+[stopbgm]
 [bg storage=run.jpg time=300]
 Thank you for playing![r]
 ソフトウェア開発演習お疲れ様でした！[l][r]
